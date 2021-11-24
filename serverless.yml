@@ -14,9 +14,9 @@ package:
 
 functions:
   theLambda:
-  name: lambda
-  handler: lambda.lambda_handler
-  description: lambda
+  name: lambda-Vistor
+  handler: lambda.lambda_handler 
+  description: lambda-Vistor-Counter
   timeout: 6
   memorySize: 128
   package:
