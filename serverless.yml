@@ -14,7 +14,7 @@ package:
 
 functions:
   theLambda:
-  name: test-lambda
+  name: lambda
   handler: lambda.hander
   description: test-lambda
   timeout: 6
