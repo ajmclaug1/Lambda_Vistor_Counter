@@ -15,7 +15,7 @@ package:
 functions:
   theLambda:
   name: lambda
-  handler: lambda.hander
+  handler: lambda.lambda_handler
   description: lambda
   timeout: 6
   memorySize: 128
