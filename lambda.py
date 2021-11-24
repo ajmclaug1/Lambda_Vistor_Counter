@@ -1,10 +1,7 @@
 import boto3
 import json
 
-#from datetime import datetime
-
 def lambda_handler(event, context):
-    #date1 = datetime.now().strftime('%d/%m/%Y')
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('Vistor_Counter')
     #Get No
