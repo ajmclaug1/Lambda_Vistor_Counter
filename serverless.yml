@@ -17,7 +17,7 @@ functions:
     name: lambda-Vistor
     handler: lambda.lambda_handler 
     description: lambda-Vistor-Counter
-    timeout: 6
+    timeout: 7
     memorySize: 128
     package:
       patterns: 
