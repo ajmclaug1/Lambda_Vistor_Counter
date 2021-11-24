@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     Vistors = dytable['Item']
     Vistors = Vistors.get('No_of_Vistors')
     #Increment
-    Vistors += 10
+    Vistors += 1
     #Update Table
     table.update_item(
     Key={
