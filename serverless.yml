@@ -16,7 +16,7 @@ functions:
   theLambda:
   name: lambda
   handler: lambda.hander
-  description: test-lambda
+  description: lambda
   timeout: 6
   memorySize: 128
   package:
