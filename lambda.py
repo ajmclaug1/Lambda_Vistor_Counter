@@ -1,6 +1,6 @@
 import boto3
 import json
-
+#Changes Test
 def lambda_handler(event, context):
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('Vistor_Counter')
@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     Vistors = dytable['Item']
     Vistors = Vistors.get('No_of_Vistors')
     #Increment
-    Vistors += 1
+    Vistors += 10
     #Update Table
     table.update_item(
     Key={
